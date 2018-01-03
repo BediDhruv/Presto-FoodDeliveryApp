@@ -1,12 +1,14 @@
-# BillPay Presto-UI Example
-
-Demo bill payments app using Presto framework.
+# Presto-FoodDeliveryApp
+An app to demonstrate the use of [Juspay's Presto framework](https://github.com/juspay/purescript-presto)
 
 # Installation
 
 ```
+git clone https://github.com/BediDhruv/Presto-FoodDeliveryApp.git
+bower i
 npm i
-bower i  # [NOTE :During installation select suitable version for purescript-foreign-generic as 4.3.0]
+pulp build
+npm start
 ```
 
 # Running
