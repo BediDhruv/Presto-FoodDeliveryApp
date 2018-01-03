@@ -1,0 +1,12 @@
+{
+  "OrderNow": "ORDER\n NOW",
+  "Menu": "SELECT MEAL",
+  "Breakfast": "BREAKFAST",
+  "Lunch": "LUNCH",
+  "Dinner": "DINNER",
+  "menu_M": "MENU",
+  "Sandwich": "Sandwich",
+  "RiceBowl": "Rice Bowl",
+  "Dosa": "Dosa",
+  "InfoText": "Your order has been successfully placed."
+}

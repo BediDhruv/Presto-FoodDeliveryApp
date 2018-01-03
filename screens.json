@@ -1,0 +1,16 @@
+{
+  "pages": {
+    "appScreens": [
+      "SplashScreen",
+      "SelectMeal",
+      "Menu",
+      "Final"
+    ]
+  },
+  "artboards": [
+    "SplashScreen",
+    "SelectMeal",
+    "Menu",
+    "Final"
+  ]
+}
