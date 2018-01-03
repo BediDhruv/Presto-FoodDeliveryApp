@@ -7,11 +7,11 @@ import Data.Generic.Rep (class Generic)
 type Meal = String
 type Menu = String
 
-data BillPayStatus = SUCCESS | FAILURE
-data BillPayFailure = FetchOperatorFailure String
-					           | BillPaymentFailure String
+data OrderStatus = SUCCESS | FAILURE
+data OrderFailure = FetchOperatorFailure String
+					           | OrderFailure String
 					           | UserAbort
 
-derive instance genericBillPayStatus  :: Generic BillPayStatus _
-instance encodeBillPayStatus :: Encode BillPayStatus where
+derive instance genericOrderStatus  :: Generic OrderStatus _
+instance encodeOrderStatus :: Encode OrderStatus where
   encode = genericEncode (defaultOptions { unwrapSingleConstructors = false })

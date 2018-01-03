@@ -6,7 +6,7 @@ import Data.Foreign.Class (class Decode, class Encode)
 import Data.Foreign.Generic (defaultOptions, genericDecode, genericEncode)
 import Data.Generic.Rep (class Generic)
 import Presto.Core.Flow (class Interact, defaultInteract)
-import Product.Types (BillPayStatus,Meal,Menu)
+import Product.Types (OrderStatus,Meal,Menu)
 
 data InitScreen = InitScreen
 data InitScreenAction = InitScreenRendered
@@ -15,7 +15,7 @@ data SplashScreen = SplashScreen
 data SplashScreenAction = SplashScreenRendered
 
 
-data FinalScreen = FinalScreen Meal Menu BillPayStatus
+data FinalScreen = FinalScreen Meal Menu OrderStatus
 data FinalScreenAction = SuccessResult | FinalScreenAbort
 
 data SelectMealScreen = SelectMealScreen

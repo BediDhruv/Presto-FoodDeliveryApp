@@ -14,7 +14,7 @@ import Engineering.Helpers.Commons (callAPI', mkNativeRequest, showUI')
 import Engineering.OS.Permission (checkIfPermissionsGranted, requestPermissions)
 import Engineering.Types.App (AppEffects, CancelerEffects)
 import Presto.Core.Flow (APIRunner, Flow, PermissionCheckRunner, PermissionRunner(..), PermissionTakeRunner, Runtime(..), UIRunner, run, forkUI)
-import Product.BillPay (foodFlow)
+import Product.FoodDelivery (foodFlow)
 import UI.Types (InitScreen(..))
 
 main :: Eff (AppEffects) (Canceler (CancelerEffects))
